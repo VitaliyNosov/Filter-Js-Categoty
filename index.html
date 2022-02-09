@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter js category</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-md-12 col-sm-12">
+                <div class="d-flex justify-content-center button-block">
+                    <button type="button" data-filter="all" class="btn btn-primary">Все</button>
+                    <button type="button" data-filter=".category-a" class="btn btn-secondary">Серый</button>
+                    <button type="button" data-filter=".category-b" class="btn btn-success">Зеленый</button>
+                    <button type="button" data-filter=".category-c" class="btn btn-danger">Красный</button>
+                    <button type="button" data-filter=".category-d" class="btn btn-warning">Желтый</button>
+                    <button type="button" data-filter=".category-e" class="btn btn-info">Бледно-зеленый</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-filter">
+        <div class="mix category-d content btn-warning">Желтый</div>
+        <div class="mix category-b content btn-success">Зеленый</div> 
+        <div class="mix category-c content btn-danger">Красный</div>
+        <div class="mix category-b content btn-success">Зеленый</div> 
+        <div class="mix category-d content btn-warning">Желтый</div>
+        <div class="mix category-a content btn-secondary">Серый</div>
+        <div class="mix category-e content btn-info">Бледно-зеленый</div>
+        <div class="mix category-d content btn-warning">Желтый</div>
+        <div class="mix category-b content btn-success">Зеленый</div> 
+        <div class="mix category-a content btn-secondary">Серый</div>
+        <div class="mix category-c content btn-danger">Красный</div>
+        <div class="mix category-e content btn-info">Бледно-зеленый</div>
+        <div class="mix category-c content btn-danger">Красный</div>
+        <div class="mix category-b content btn-success">Зеленый</div> 
+        <div class="mix category-d content btn-warning">Желтый</div>
+        <div class="mix category-a content btn-secondary">Серый</div>
+        <div class="mix category-b content btn-success">Зеленый</div> 
+        <div class="mix category-c content btn-danger">Красный</div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>
